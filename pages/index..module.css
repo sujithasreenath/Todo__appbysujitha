@@ -1,0 +1,17 @@
+.container {
+    max-width: 600px; /* Adjusts the width of the container */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Adds padding for spacing */
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .title {
+    text-align: center; /* Centers the title text */
+    font-size: 2rem; /* Larger font size for the title */
+    font-weight: bold; /* Bold font weight */
+    color: #007bff; /* Bootstrap primary blue color */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  

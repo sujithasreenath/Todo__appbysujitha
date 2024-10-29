@@ -1,0 +1,25 @@
+.taskItemContainer {
+    border: 1px solid #e0e0e0; /* Light gray border */
+    padding: 16px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: box-shadow 0.3s; /* Transition for hover effect */
+  }
+  
+  .taskItemContainer:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  }
+  
+  .taskTitle {
+    font-size: 18px; /* Larger font size for the title */
+    font-weight: bold; /* Bold title */
+    color: yellow ;/* Dark gray color */
+    margin-bottom: 8px; /* Spacing below the title */
+  }
+  
+  .taskRecurrence {
+    font-size: 14px; /* Smaller font size for the recurrence */
+    color: blue; /* Medium gray for text */
+  }
+  

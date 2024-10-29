@@ -1,0 +1,42 @@
+.recurrencePickerContainer {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light gray background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recurrenceLabel {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333; /* Dark gray text for better readability */
+  }
+  
+  .recurrenceSelect,
+  .recurrenceInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .recurrenceSelect:focus,
+  .recurrenceInput:focus {
+    border-color: #007bff; /* Bootstrap primary color on focus */
+    outline: none;
+  }
+  
+  .recurrenceInput[type="number"] {
+    -moz-appearance: textfield; /* Removes the spinner from the number input */
+  }
+  
+  .recurrenceInput[type="number"]::-webkit-inner-spin-button,
+  .recurrenceInput[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
